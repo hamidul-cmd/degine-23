@@ -1,0 +1,115 @@
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    z-index: 100;
+    padding-inline: 60px;
+    background-color: #fff;
+}
+.header {
+    max-width: 1920px;
+    width: 100vw;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+.logo span {
+    font-size: var(--fs__a);
+    font-weight: 500;
+    line-height: 1;
+    color: var(--font__color);
+}
+.logo span i {
+    font-size: 18px;
+    color: var(--font__color);
+    margin-right: 9px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.manu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+}
+.nav__links .ri-arrow-up-s-fill {
+    display: none;
+}
+.nav__links:hover .ri-arrow-up-s-fill {
+    display: inline-block;
+}
+.nav__links:hover .ri-arrow-down-s-fill {
+    display: none;
+}
+.nav__links a {
+    padding: 50px 8px;
+}
+.nav__links a i {
+    margin-left: 3px;
+}
+.sign__in {
+    display: flex;
+    align-items: flex-start;
+}
+
+.sign__in i{
+    font-size: 15px;
+    margin-right: 8px;
+
+}
+.submit {
+    padding: 10px 26px;
+    border: 1px solid var(--font__color);
+    border-radius: 16px;
+    transition: all .5s ease;
+}
+.submit:hover {
+    background-color: var(--font__color);
+    color: #fff;
+}
+
+.dropdown__box {
+    position: absolute;
+    top: 100px;
+    z-index: 90;
+    left: 35.4%;
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+.drop__down {
+    transition: all 0.4s ease-in;
+    background-color: #fff;
+    padding: 20px;
+   border-radius: 0 0 10px 10px;
+}
+.drop__links {
+    padding-block: 10px;
+}
+.home__drop__down {
+    transform: translateY(-100%);
+}
+.listing__drop__down {
+    transform: translateY(-100%);
+    margin-left: 8px;
+}
+.blog__drop__down {
+    transform: translateY(-100%);
+    margin-left: 10px;
+}
+.page__drop__down {
+    transform: translateY(-100%);
+    margin-left: 10px;
+}

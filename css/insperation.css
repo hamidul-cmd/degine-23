@@ -1,0 +1,52 @@
+.insperation__container {
+    max-width: 1700px;
+    margin: auto;
+    padding-block: 100px;
+}
+.insperation__title h2 {
+    font-size: var(--fs__h2);
+    color: var(--font__color);
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.capsules {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.capsules a {
+    font-size: var(--fs__p);
+    font-weight: 500;
+    padding: 22px 25px;
+    border: 1px solid #E1E1E1;
+    border-radius: 16px;
+    margin-bottom: 115px;
+}
+.box__car {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    background-color: var(--button__color);
+    padding-block: 105px;
+    border-radius: 16px;
+}
+.box__car__text h2 {
+    font-size: var(--fs__h2);
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+} 
+.box__car__text p {
+    font-size: var(--fs__a);
+    line-height: 1.8;
+    color: white;
+}
+.great__box {
+    display: flex;
+    gap: 30px;
+
+}
+.great__box img {
+    display: block;
+}
